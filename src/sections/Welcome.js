@@ -1,6 +1,6 @@
 export default function Welcome(){
     return(
-        <div className="w-full h-[95%] flex flex-col justify-center items-center">
+        <div className="w-full h-[85vh] flex flex-col justify-center items-center">
             <div className="text-emerald-500 font-lexend mr-auto m-2 text-xl">
                 Welcome...
             </div>

@@ -4,7 +4,7 @@ import Welcome from "./sections/Welcome";
 
 export default function App() {
   return (
-    <div className="w-full h-[100vh] bg-slate-900">
+    <div className="w-full h-auto bg-slate-900">
         <Navigation/>
         <Welcome/>
         <About/>
