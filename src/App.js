@@ -1,5 +1,6 @@
 import Navigation from "./componenets/Navigation";
 import About from "./sections/About";
+import Experience from "./sections/Experience";
 import Welcome from "./sections/Welcome";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
         <Navigation/>
         <Welcome/>
         <About/>
+        <Experience/>
     </div>
   );
 }

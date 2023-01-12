@@ -1,12 +1,9 @@
+import SectionTitle from "../componenets/SectionTitle";
+
 export default function About(){
     return(
-        <div className="w-full h-[85vh] bg-slate-900 flex flex-col justify-center items-center">
-            <div className="mr-auto flex justify-center items-center w-full">
-                <span className="text-slate-200 text-xl m-2 flex justify-center items-cente font-lexend">
-                    <div className="w-[200px] h-[3px] bg-emerald-500 m-4 opacity-80"></div>
-                    About Me
-                </span>
-            </div>
+        <div className="w-full h-[100vh] bg-slate-900 flex flex-col justify-center items-center">
+           <SectionTitle title='About'/>
 
             <div className="text-slate-400 font-lexend w-[350px] flex flex-col">
             Hey there! My name is Vahap and I am a passionate programmer. I love nothing more than writing code and bringing my ideas to life. As a lecturer in computing, I am able to share my knowledge and experience with students, helping them to become the next generation of tech enthusiasts.
@@ -15,8 +12,18 @@ export default function About(){
                 <span className="m-4"></span>
             So if you're looking for a dedicated and innovative programmer, look no further! I am always excited to take on new challenges and see what I can achieve.
             </div>
-            
 
+            <div className="text-slate-200 text-sm font-lexend m-5 mt-5">
+                I am currently learning and with the following technologies:
+                <ul className="text-slate-400 ml-5">
+                    <li><span className="text-emerald-400 text-lg mr-1">-</span>React JS</li>
+                    <li><span className="text-emerald-400 text-lg mr-1">-</span>Node JS</li>
+                    <li><span className="text-emerald-400 text-lg mr-1">-</span>Tailwind CSS</li>
+                    <li><span className="text-emerald-400 text-lg mr-1">-</span>Mongo DB</li>
+                    <li><span className="text-emerald-400 text-lg mr-1">-</span>Express JS</li>
+                    <li><span className="text-emerald-400 text-lg mr-1">-</span>Python Flask</li>
+                </ul>
+            </div>
         </div>
     )
 }
