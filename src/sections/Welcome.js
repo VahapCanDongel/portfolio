@@ -1,9 +1,14 @@
+import ProgrammingImage from '../componenets/images/programming.svg'
+
 export default function Welcome(){
     return(
         <div className="w-full h-[85vh] flex flex-col justify-center items-center">
-            <div className="text-emerald-500 font-lexend mr-auto m-2 text-xl">
+          
+            <div className="text-emerald-500 font-lexend mr-auto m-2 text-xl mt-[150px] mb-3">
                 Welcome...
             </div>
+
+            <img src={ProgrammingImage} className='w-[300px]'/>
             <div className="text-slate-300 text-[40px] text-left font-martian m-2">
                 Discover My Projects, Expertise and Passion.
             </div>
